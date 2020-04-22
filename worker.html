@@ -1,0 +1,16 @@
+<html>
+  <!-- Security boilerplate -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  <head>
+    <!-- Load TensorFlow.js -->
+    <script src="./tf/tf.min.js"> </script>
+    <script src="./tf/tfjs-automl.js"></script>
+
+    <!-- Code to read image and model -->
+    <script src="./worker.js"></script>
+  </head>
+
+  <body>
+    <img id='exampleImg'/>
+  </body>
+</html>
