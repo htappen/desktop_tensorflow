@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^8.2.3",
+    "electron": "^8.5.2",
     "yargs": "^15.3.1"
   }
 }
